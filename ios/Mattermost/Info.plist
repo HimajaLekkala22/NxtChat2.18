@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>AppGroupIdentifier</key>
-	<string>group.com.mattermost.rnbeta</string>
+	<string>group.com.nxtgen.nxtchat.com</string>
 	<key>BundleEntryFilename</key>
 	<string>index.js</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Mattermost Beta</string>
+	<string>NxtChat</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.mattermost.rnbeta</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -32,7 +32,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>mattermost</string>
-				<string>mmauthbeta</string>
+				<string>mmauth</string>
 			</array>
 		</dict>
 	</array>
@@ -70,7 +70,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Enabling access to your location data means we can add location metadata to pictures and videos you share in $(PRODUCT_NAME).</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Enabling access to your device's microphones means you can capture audio for calls or videos to share in $(PRODUCT_NAME).</string>
+	<string>Enabling access to your device&apos;s microphones means you can capture audio for calls or videos to share in $(PRODUCT_NAME).</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Enabling write access to your photo library means you can save downloaded photos and videos from $(PRODUCT_NAME) to your device.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
